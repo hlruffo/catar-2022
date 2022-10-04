@@ -62,6 +62,13 @@ export function App() {
 }
 ```
 
+Ainda no React, vamos utilizar uma biblioteca chamada React Router Dom, para manipularmos as navegações, URL Guide:
+<https://reactrouter.com/en/main/start/tutorial>
+
+```js
+npm install react-router-dom localforage match-sorter sort-by
+```
+
 '''''''''''''''''''''''''''''''''''''''''''''''
 
 Utilizando uma biblioteca que agiliza na criação da aplicação que é o Vite.js: <https://vitejs.dev/>
@@ -90,6 +97,7 @@ npm install -D tailwindcss postcss autoprefixer
 ```
 
 Para rodar
+
 ```js
 npx tailwindcss init -p
 ```
