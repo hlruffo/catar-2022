@@ -6,3 +6,7 @@ body {
   @apply text-red-700;
   font-family: 'Cairo', sans-serif;
 }
+
+input {
+  outline: 0;
+}

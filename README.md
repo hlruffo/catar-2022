@@ -83,6 +83,28 @@ npm install
 npm run dev
 ```
 
+Para podermos importar svg no React usando o Vite:
+Guia na URL: <https://www.npmjs.com/package/vite-plugin-svgr>
+
+```js
+npm i vite-plugin-svgr
+```
+
+Para corrigir os caminhos/paths no Vite:
+
+Importar do próprio Node o path
+
+```js
+import path from 'path'
+```
+
+```js
+resolve: {
+alias: {
+'~': path.resolve(__dirname, './src')
+}
+```
+
 '''''''''''''''''''''''''''''''''''''''
 
 O Tailwind CSS: <https://tailwindcss.com/>
