@@ -84,6 +84,12 @@ npm i date-fns
 const initialDate = '2022-11-20T00:00:00Z'
 ```
 
+Para bibliotecas com internacionalização se utiliza muito a tag I18N, para a formatação das datas em ptBR
+
+```js
+import { ptBR } from 'date-fns/locale'
+```
+
 ********
 
 Utilizando uma biblioteca que agiliza na criação da aplicação que é o Vite.js: <https://vitejs.dev/>

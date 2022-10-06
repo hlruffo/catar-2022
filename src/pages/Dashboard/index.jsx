@@ -1,4 +1,4 @@
-import { Icon, Card } from "~/components"
+import { Icon, Card, DateSelect } from "~/components"
 
 export const Dashboard = () => (
   // O Fragment para quando temos vários elementos ele engloba tudo, vem do próprio React com um import { Fragment } from 'react', mas ele também entende apenas colocando <> e fechando no final com </>
@@ -22,11 +22,7 @@ export const Dashboard = () => (
 
       <section id="content" className="container max-w-3xl p-4 space-y-4">
 
-        <div className="p-4 flex space-x-4 items-center justify-center">
-          <Icon name="arrowLeft" className="w-6 text-red-500" />
-          <span className="font-bold">24 de novembro</span>
-          <Icon name="arrowRight" className="w-6 text-red-500" />
-        </div>
+        <DateSelect />
 
 
         <div className="space-y-4">
