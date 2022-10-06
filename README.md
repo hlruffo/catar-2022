@@ -1,10 +1,10 @@
-# catar-2022
+# World Cup 2022 - Catar - NaTrave: Faça sua aposta
 
-A construção em html, css e JS - e essa foi a stack utilizada:
+## A stack utilizada: Vite, React, NPM, TailwindCSS, KOA, Planetscale (MySQL em Nuvem), ORM Prisma e hospedado na Vercel
 
-Usando o framework React: <https://pt-br.reactjs.org/>
+### Usando o framework React
 
-Utilizamos className e o próprio React passa a entender como class depois
+<https://pt-br.reactjs.org/>
 
 O React utiliza o JSX
 
@@ -69,7 +69,22 @@ Ainda no React, vamos utilizar uma biblioteca chamada React Router Dom, para man
 npm install react-router-dom localforage match-sorter sort-by
 ```
 
-'''''''''''''''''''''''''''''''''''''''''''''''
+********
+
+Para trabalhar com datas utilizamos uma biblioteca chamada date-fns, URL GUIA:
+<https://date-fns.org/>
+
+```js
+npm i date-fns
+```
+
+`Com datas indicamos pela ISO 8601 que é o formato internacional de data, que começa com ano, mês e dia, e horas caso hajam`
+
+```js
+const initialDate = '2022-11-20T00:00:00Z'
+```
+
+********
 
 Utilizando uma biblioteca que agiliza na criação da aplicação que é o Vite.js: <https://vitejs.dev/>
 
@@ -105,7 +120,7 @@ alias: {
 }
 ```
 
-'''''''''''''''''''''''''''''''''''''''
+********
 
 O Tailwind CSS: <https://tailwindcss.com/>
 
@@ -142,16 +157,16 @@ Importar dentro do css index/global:
 ```
 
 Depois importar dentro do main
-'''''''''''''''''''''''''''''''''''''''''
+********
 
 Para facilitar o desenvolvimento com o Node, e como é mais simples que o Express, utilizamos ele
 O koa: <https://koajs.com/>
 
-'''''''''''''''''''''''''''''''''''''''
+********
 
 E utilizamos um banco de dados na nuvem, que se encontra no PlanetScale que por debaixo dos panos usa o MySQL: <https://planetscale.com/>
 
-'''''''''''''''''''''''''''''''''''''''''''
+********
 E utilizamos um ORM para fazer a conexão e comunicação, o Prisma: <https://prisma.io/>
 
 E hospedamos na Vercel para tornar publico:

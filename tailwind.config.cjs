@@ -18,6 +18,9 @@ module.exports = {
       '3xl': ['48px', '56px'],
     },
     extend: {
+      opacity: {
+        '15': '.15',
+      },
       colors: {
         black: '#0B0E16',
         white: '#F4F6FF',
